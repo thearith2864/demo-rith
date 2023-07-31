@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    height: 100vh;
+    background: rgb(201, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 40%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.LOGIN-TO-YOUR-ACCOUNT {
+    padding: 17px;
+    text-align: center;
+    /* border-bottom: 1px solid gray; */
+}
+.USER-NAME,.password,.Email{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+input{
+    height: 40px;
+    border: 1px rgb(187, 186, 186) solid;
+    
+}
+.remember{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    
+}
+.remember input{
+    margin-right: 5px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* background-color: rgb(34, 75, 75); */
+    margin: 0px 0 20px;
+    align-items: center;
+    
+    
+    
+}
+button{
+    background-color: orange;
+    border-radius: 20px;
+    width: 97%;
+    height: 40px;
+    border: 1px ;
+    
+}
